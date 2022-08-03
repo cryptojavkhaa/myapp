@@ -1,0 +1,57 @@
+{
+    "CompanyName": {
+        "1": "Rents'O Estate",
+        "2": "Rents'O",
+        "3": "Estate"
+    },
+    "ShowCaseText": {
+        "h1": "Монголд үл хөдлөх хөрөнгийн цогц үйлчилгээг бид үзүүлнэ",
+        "p1": "Үндэсний үл хөдлөх хөрөнгө",
+        "p2": "Монгол ОЖҮ",
+        "p3": "Үндэсний үл хөдлөх хөрөнгийн хөгжлийн Нийгэмлэг",
+        "a": "Дэлгэрэнгүй"
+    },
+    "MenuURL": {
+        "1": "/",
+        "2": "/question",
+        "3": "/broker",
+        "4": "/about",
+        "5": "/sell",
+        "6": "/buy",
+        "7": "/sale",
+        "8": "/management"
+    },
+    "ShowCaseText": {
+        "h1": "There is no limit to our possibilities ",
+        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit dfdas dfasddsfa fdsafdsfa fdasadfda dfdafds, dasdfdf. dfadsfs d fads",
+        "a": "Read More"
+    },
+    "MenuShowCases": {
+        "about": {
+            "h2": "Үл хөдлөх хөрөнгийн тухай ",
+            "p": "Бидний танд хамгийн тохиромжтой үнийг санал болгоно."
+        },
+        "sell": {
+            "h2": "Хэрэв та худалдах бол ",
+            "p": "Та яг зөв газраа сонгосон байна."
+        },
+        "buy": {
+            "h2": "Хэрэв худалдан авах бол ",
+            "p": "Зураг дээр дарж орно уу."
+        },
+        "sale": {
+            "h2": "Үл хөдлөх хөрөнгийн борлуулалт ",
+            "p": "Зураг дээр дарж орно уу."
+        },
+        "management": {
+            "h2": "Үл хөдлөх эзэмшлийн удирдлага ",
+            "p": "Зураг дээр дарж орно уу."
+        }
+    },
+    "Copyright": {
+        "p": "© 2022 Rents'O Estate LLC"
+    },
+    "Address": {
+        "1": "Lorem ipsum dolor sit amet consectetur adipisicing elit dfdas dfasddsfa fdsafdsfa fdasadfda dfdafds, dasdfdf. dfadsfs d fads"
+    }
+}

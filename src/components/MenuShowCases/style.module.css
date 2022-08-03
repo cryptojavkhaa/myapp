@@ -1,0 +1,146 @@
+@media (min-width: 600px) {
+    .container {
+        display: flex;
+        height: 400px;
+        font-family: "Segoe UI";
+    }
+    .container div {
+        display: flex;
+        flex: 1;
+    }
+    .about {
+        display: flex;
+        color: #fff;
+        margin: 0.5rem;
+        height: 100%;
+        background: rgb(78, 24, 179) url(../../assets/DSC_2970.JPG) no-repeat center center/cover;
+    }
+    .link {
+        display: flex;
+        flex: 1;
+        text-decoration: none;
+    }
+    .about .link .Showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: #fff;
+        padding: 1rem;
+        background: linear-gradient( to bottom, rgba(0, 122, 179, 0) 60%, rgb(207, 219, 30));
+    }
+    .sell {
+        display: flex;
+        flex: 1;
+        color: #fff;
+        margin: 0.5rem;
+        height: 100%;
+        background: rgb(78, 24, 179) url(../../assets/DSC_2973.JPG) no-repeat center center/cover;
+    }
+    .sell .link .Showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: #fff;
+        padding: 1rem;
+        background: linear-gradient( to bottom, rgba(0, 122, 179, 0) 60%, rgb(173, 24, 211));
+    }
+    .buy {
+        display: flex;
+        flex: 1;
+        margin: 0.5rem;
+        height: 100%;
+        background: rgb(78, 24, 179) url(../../assets/DSC_2973.JPG) no-repeat center center/cover;
+    }
+    .buy .link .Showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: #fff;
+        padding: 1rem;
+        background: linear-gradient( to bottom, rgba(0, 122, 179, 0) 60%, rgb(62, 211, 16));
+    }
+    .sale {
+        display: flex;
+        flex: 1;
+        color: #fff;
+        margin: 0.5rem;
+        height: 100%;
+        background: rgb(78, 24, 179) url(../../assets/DSC_2973.JPG) no-repeat center center/cover;
+    }
+    .sale .link .Showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: #fff;
+        padding: 1rem;
+        background: linear-gradient( to bottom, rgba(0, 122, 179, 0) 60%, rgb(240, 108, 19));
+    }
+    .management {
+        display: flex;
+        flex: 1;
+        margin: 0.5rem;
+        height: 100%;
+        background: rgb(78, 24, 179) url(../../assets/DSC_2973.JPG) no-repeat center center/cover;
+    }
+    .management .Showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        color: #fff;
+        padding: 1rem;
+        background: linear-gradient( to bottom, rgba(0, 122, 179, 0) 60%, rgb(44, 23, 231));
+    }
+    .fadeUp {
+        opacity: 0;
+        animation: fadeAnimation 0.5s forwards;
+    }
+    @keyframes fadeAnimation {
+        0% {
+            opacity: 0;
+            transform: translate(10px, 10px);
+        }
+        75% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0px, 0px);
+        }
+    }
+    .container div:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+    .container div:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+}
+
+
+/* @media (max-width: 599px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    .container .home {
+        display: flex;
+        cursor: pointer;
+        background: #e04f0c;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .container .question {
+        display: flex;
+        cursor: pointer;
+        background: #db36b8;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+    .container .broker {
+        display: flex;
+        cursor: pointer;
+        background: #16c41fcc;
+        color: #fff;
+        margin-left: 0px;
+    }
+} */

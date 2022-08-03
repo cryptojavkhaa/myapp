@@ -1,0 +1,244 @@
+.light {
+    display: flex;
+    background: #053e79;
+    flex-direction: column;
+}
+
+.dark {
+    display: flex;
+    background: #646262;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItems {
+    display: flex;
+    flex: 80;
+}
+
+.menuItem ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+}
+
+.menuItem ul li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 1rem;
+    color: #f3ebf6;
+}
+
+.menuItem ul li a {
+    color: #f3ebf6;
+    text-decoration: none;
+}
+
+.logoContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoContent h1 {
+    font-size: 1.5rem;
+    color: #f3ebf6;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logoContent p {
+    display: flex;
+    color: #f3ebf6;
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    flex: 80%;
+}
+
+.menuItem h1 {
+    color: #f3ebf6;
+    font-size: 1.5rem;
+}
+
+.menuItem ul li {
+    font-weight: 800;
+    padding: 1rem 2rem;
+}
+
+.item {
+    color: #f3ebf6;
+    transition: all 0.1s ease-in-out;
+}
+
+.item:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialItems .item ul {
+    display: flex;
+}
+
+.socialItems .item ul li {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.socialItems .item ul li h1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.light .socialItems .item ul li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.dark .socialItems .item ul li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.menuItem2 ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menuItem2 ul li {
+    padding: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.menuItem2 ul li a {
+    text-decoration: none;
+    color: #f3ebf6;
+}
+
+.menuItem2 ul li a:hover {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.scrollItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: #2375cc;
+}
+
+.scrollItems h1 {
+    color: #f3ebf6;
+    font-size: 1.5rem;
+}
+
+.light .scrollItems a {
+    color: #2375cc;
+}
+
+.dark .scrollItems a {
+    color: #f3ebf6;
+}
+
+.copylight {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.copylight h1 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #f3ebf6;
+    margin-top: 0.5rem;
+}
+
+.copylight .line {
+    background: #f3ebf6;
+}
+
+.fadeUp {
+    opacity: 0;
+    animation: fadeAnimation 1s forwards;
+}
+
+@keyframes fadeAnimation {
+    0% {
+        opacity: 0;
+        transform: translate(10px, 10px);
+    }
+    75% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+.logoContent h1 {
+    animation-delay: 0.1s;
+}
+
+.logoContent p {
+    animation-delay: 0.2s;
+}
+
+.menuItem ul li:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+.textPrimary {
+    font-weight: 50;
+}
+
+.textPrimary:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: #f3ebf6;
+    padding: 1rem 1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.menuItem ul li:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.menuItem ul li:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+.menuItem ul li:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.scrollItems a {
+    animation-delay: 0.7s;
+}
+
+.copylight h1 {
+    animation-delay: 0.8s;
+}
