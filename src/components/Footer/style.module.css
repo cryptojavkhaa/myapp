@@ -22,7 +22,7 @@
 
 .menuItem ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     list-style: none;
     padding: 1rem;
 }
@@ -31,7 +31,6 @@
     font-size: 1.2rem;
     font-weight: 300;
     padding: 1rem;
-    color: #f3ebf6;
 }
 
 .menuItem ul li a {
@@ -44,6 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 20%;
 }
 
 .logoContent h1 {
@@ -65,39 +65,24 @@
 }
 
 .menuItem {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     padding: 1rem;
     flex: 80%;
 }
 
-.menuItem h1 {
-    color: #f3ebf6;
-    font-size: 1.5rem;
-}
-
-.menuItem ul li {
-    font-weight: 800;
-    padding: 1rem 2rem;
-}
-
 .item {
     color: #f3ebf6;
-    transition: all 0.1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .item:hover {
-    border-color: rgba(0, 0, 0, 0.3);
+    border-color: #838d91;
 }
 
-.wrap {
-    display: flex;
-    justify-content: space-around;
-}
-
-.socialItems .item ul {
-    display: flex;
+.menuItems .item a:hover {
+    background: #646262;
+    padding: 2rem 1rem;
+    transition: all 1s ease-in-out;
+    transform: translate(0px, 100px);
 }
 
 .socialItems .item ul li {
@@ -112,35 +97,11 @@
 }
 
 .light .socialItems .item ul li a:hover {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
+    background: #2375cc;
 }
 
 .dark .socialItems .item ul li a:hover {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
-}
-
-.menuItem2 ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-.menuItem2 ul li {
-    padding: 2rem;
-    list-style: none;
-    font-size: 1.2rem;
-}
-
-.menuItem2 ul li a {
-    text-decoration: none;
-    color: #f3ebf6;
-}
-
-.menuItem2 ul li a:hover {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 1rem 1rem;
-    transition: all 0.1s ease-in-out;
+    background: #504f4f;
 }
 
 .scrollItems {
@@ -212,17 +173,6 @@
     animation-delay: 0.3s;
 }
 
-.textPrimary {
-    font-weight: 50;
-}
-
-.textPrimary:hover {
-    background: rgba(0, 0, 0, 0.3);
-    color: #f3ebf6;
-    padding: 1rem 1rem;
-    transition: all 0.1s ease-in-out;
-}
-
 .menuItem ul li:nth-child(2) {
     animation-delay: 0.4s;
 }
@@ -241,4 +191,25 @@
 
 .copylight h1 {
     animation-delay: 0.8s;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 1rem;
+    }
+    .menuItems {
+        display: flex;
+        flex-direction: column;
+    }
+    .onlyMenu {
+        flex-direction: column;
+    }
+    .menuItem ul {
+        justify-content: center;
+    }
+    .menuItem ul li {
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 1rem;
+    }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Navbar from "./../components/Navbar";
+import SideBar from "./../components/Sidebar";
 import Footer from "./../components/Footer";
 
 const HomepageLayouts = (props) => {
@@ -8,6 +9,7 @@ const HomepageLayouts = (props) => {
     <>
       <Header />
       <Navbar />
+      <SideBar />
       {props.children}
       <Footer />
     </>

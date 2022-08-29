@@ -144,39 +144,8 @@
     animation-delay: 0.3s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
     #showcase {
-        background: rgb(78, 24, 179) url(../../assets/contracosta.png) no-repeat center center/auto;
-        font-family: "Segoe UI";
-    }
-    .wrap {
-        width: 100vh;
-    }
-    .wrap h1 {
-        font-size: 4rem;
-        margin-bottom: 0.75rem;
-        line-height: 1.1;
-    }
-    .wrap p {
-        font-size: 1rem;
-        margin-bottom: 2rem;
-    }
-    .btn {
-        display: inline-block;
-        color: #fff;
-        background: #007ab3;
-        padding: 0.5rem 2rem;
-        border: #007ab3;
-        border-radius: 1px;
-        border-style: solid;
-        border-width: 0.1rem;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-    }
-    .btn:hover {
-        background: rgba(33, 36, 179, 0);
-        border: #007ab3;
-        border-style: solid;
-        border-width: 0.1rem;
+        background: rgb(78, 24, 179) url(../../assets/contracosta_small.png) no-repeat center center/auto;
     }
 }

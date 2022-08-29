@@ -1,122 +1,173 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("http://fonts.cdnfonts.com/css/segoe-ui-4");
-.light {
-    display: flex;
-    flex-direction: row;
-    font-family: "Segoe-UI";
-    height: 60px;
-    position: sticky;
-    background-color: #053e79;
-    color: #f3ebf6;
-    align-items: center;
-    top: 10;
-    justify-content: flex-end;
-    padding: 1rem;
-}
-
-.dark {
-    display: flex;
-    flex-direction: row;
-    font-family: "Segoe-UI";
-    height: 60px;
-    position: sticky;
-    background-color: #646262;
-    color: #f3ebf6;
-    align-items: center;
-    top: 10;
-    justify-content: flex-end;
-    padding: 1rem;
-}
-
-.light ul li a {
-    color: #f3ebf6;
-    font-family: Tahoma;
-    display: flex;
-    align-items: center;
-}
-
-.dark ul li a {
-    color: #f3ebf6;
-    font-family: Tahoma;
-    display: flex;
-    align-items: center;
-}
-
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    position: relative;
-    list-style: none;
-    display: inline-block;
-}
-
-nav ul li a {
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.light ul li a:hover {
-    background: #0753a5;
-    padding: 1rem 2rem;
-    transition: all 1s ease-in-out;
-}
-
-.dark ul li a:hover {
-    background: #303030;
-    padding: 1rem 2rem;
-    transition: all 1s ease-in-out;
-}
-
-nav ul ul {
-    position: absolute;
-    top: 40px;
-    display: none;
-}
-
-nav ul li:hover>ul {
-    display: block;
-}
-
-nav ul ul li {
-    width: 150px;
-    float: none;
-    display: list-item;
-    position: relative;
-    padding: 10px 0px;
-}
-
-.fadeUp {
-    opacity: 0;
-    animation: fadeAnimation 0.3s forwards;
-}
-
-@keyframes fadeAnimation {
-    0% {
+@media only screen and (min-width: 600px) {
+    .light {
+        display: flex;
+        flex-direction: row;
+        font-family: "Segoe-UI";
+        height: 100px;
+        position: sticky;
+        background-color: #053e79;
+        color: #f3ebf6;
+        align-items: center;
+        top: 10;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+    .dark {
+        display: flex;
+        flex-direction: row;
+        font-family: "Segoe-UI";
+        height: 60px;
+        position: sticky;
+        background-color: #646262;
+        color: #f3ebf6;
+        align-items: center;
+        top: 10;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+    .light ul li a {
+        color: #f3ebf6;
+        font-family: Tahoma;
+    }
+    .dark ul li a {
+        color: #f3ebf6;
+        font-family: Tahoma;
+    }
+    section ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    section ul li {
+        display: flex;
+        align-items: center;
+        position: relative;
+        list-style: none;
+        height: 100%;
+        display: inline-block;
+    }
+    section ul li a {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        height: 100%;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .light ul li a:hover {
+        transition: all 0.4s ease-in-out;
+        transform: scale(1.1);
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .dark ul li a:hover {
+        background: #303030;
+        transition: all 1s ease-in-out;
+    }
+    .fadeUp {
         opacity: 0;
-        transform: translate(10px, 10px);
+        animation: fadeAnimation 0.3s forwards;
     }
-    75% {
-        opacity: 0.2;
+    @keyframes fadeAnimation {
+        0% {
+            opacity: 0;
+            transform: translate(10px, 10px);
+        }
+        75% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 1;
+            transform: translate(0px, 0px);
+        }
     }
-    100% {
-        opacity: 1;
-        transform: translate(0px, 0px);
+    section ul div:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+    section ul div:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+    section ul div:nth-child(3) {
+        animation-delay: 0.3s;
     }
 }
 
-nav ul div:nth-child(1) {
-    animation-delay: 0.1s;
-}
-
-nav ul div:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-nav ul div:nth-child(3) {
-    animation-delay: 0.3s;
+@media only screen and (max-width: 599px) {
+    .light {
+        display: flex;
+        flex-direction: row;
+        font-family: "Segoe-UI";
+        height: 100px;
+        position: sticky;
+        background-color: #053e79;
+        color: #f3ebf6;
+        align-items: center;
+        top: 10;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+    .dark {
+        display: flex;
+        flex-direction: row;
+        font-family: "Segoe-UI";
+        height: 100px;
+        position: sticky;
+        background-color: #646262;
+        color: #f3ebf6;
+        align-items: center;
+        top: 10;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+    .hideOnModile {
+        display: none;
+    }
+    .icon1,
+    .icon2,
+    .icon3 {
+        position: absolute;
+        left: 25%;
+        top: 50%;
+        width: 32px;
+        height: 3px;
+        background: #f3ebf6;
+        transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
+    }
+    .icon1 {
+        transform: translateY(-8px);
+        animation-delay: 100ms;
+    }
+    .icon3 {
+        transform: translateY(8px);
+        animation-delay: 250ms;
+    }
+    .hamburgerIcon {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        top: 18%;
+        left: 3%;
+        z-index: 1000;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: all 0.2s ease-in-out;
+    }
+    .hamburgerIcon:hover {
+        transform: scale(1.2);
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    }
+    .a {
+        transform: rotate(40deg);
+    }
+    .b {
+        transform: rotate(-40deg);
+    }
+    .c {
+        opacity: 0;
+    }
+    .clear {
+        clear: both;
+    }
 }
