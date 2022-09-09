@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import Media from "react-media";
 import ThemeContext from "../../context/ThemeContext";
 import css from "./style.module.css";
 

@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import ThemeContext from "./../../context/ThemeContext";
-import Logo from "./../../assets/logo.png";
 import css from "./style.module.css";
 
 const SideBar = (props) => {

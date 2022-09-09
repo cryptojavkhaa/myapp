@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import KeyboardControlKeyIcon from "@mui/icons-material/KeyboardControlKey";
-import css from "./style.module.css";
 
 const ScrollUpButton = () => {
   const [showTopBtn, setShowTopBtn] = useState(false);
