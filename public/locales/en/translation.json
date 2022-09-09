@@ -5,6 +5,11 @@
         "2": "RENTS'O",
         "3": "ESTATE"
     },
+    "Menu": {
+        "1": "Home",
+        "2": "Any Question?",
+        "3": "broker@rentsoestate.mn"
+    },
     "ShowCaseText": {
         "h1": "We provide comprehensive real estate services in Mongolia",
         "p1": "National Real Estate",

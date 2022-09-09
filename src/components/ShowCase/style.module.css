@@ -24,7 +24,7 @@
 
 .wrap {
     display: flex;
-    width: 50%;
+    width: 60%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,8 @@
 
 .wrap1 {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .fadeUp a {
@@ -52,10 +54,10 @@
 
 .btn1 {
     display: inline-block;
-    color: #007ab3;
+    color: #e94d0f;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .btn2 {
@@ -63,30 +65,30 @@
     color: #f5a30c;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .btn3 {
     display: inline-block;
-    color: #910f25;
+    color: #1ae635;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .btn1:hover {
+    background: rgba(0, 0, 0, 0.2);
     transition: all 1s ease-in-out;
-    transform: translate(0px, 100px);
 }
 
 .btn2:hover {
+    background: rgba(0, 0, 0, 0.2);
     transition: all 1s ease-in-out;
-    transform: translate(0px, 100px);
 }
 
 .btn3:hover {
+    background: rgba(0, 0, 0, 0.2);
     transition: all 1s ease-in-out;
-    transform: translate(0px, 100px);
 }
 
 .fadeUp {
