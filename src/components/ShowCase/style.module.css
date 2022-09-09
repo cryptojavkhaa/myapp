@@ -52,13 +52,7 @@
 
 .btn1 {
     display: inline-block;
-    color: #fff;
-    background: #007ab3;
-    padding: 0.5rem 2rem;
-    border: #007ab3;
-    border-radius: 1px;
-    border-style: solid;
-    border-width: 0.3rem;
+    color: #007ab3;
     font-size: 1.5rem;
     text-decoration: none;
     margin-bottom: 1rem;
@@ -66,13 +60,7 @@
 
 .btn2 {
     display: inline-block;
-    color: #fff;
-    background: #f5a30c;
-    padding: 0.5rem 2rem;
-    border: #f5a30c;
-    border-radius: 1px;
-    border-style: solid;
-    border-width: 0.3rem;
+    color: #f5a30c;
     font-size: 1.5rem;
     text-decoration: none;
     margin-bottom: 1rem;
@@ -80,37 +68,25 @@
 
 .btn3 {
     display: inline-block;
-    color: #fff;
-    background: #910f25;
-    padding: 0.5rem 2rem;
-    border: #910f25;
-    border-radius: 1px;
-    border-style: solid;
-    border-width: 0.3rem;
+    color: #910f25;
     font-size: 1.5rem;
     text-decoration: none;
     margin-bottom: 1rem;
 }
 
 .btn1:hover {
-    background: rgba(33, 36, 179, 0);
-    border: #007ab3;
-    border-style: solid;
-    border-width: 0.3rem;
+    transition: all 1s ease-in-out;
+    transform: translate(0px, 100px);
 }
 
 .btn2:hover {
-    background: rgba(33, 36, 179, 0);
-    border: #007ab3;
-    border-style: solid;
-    border-width: 0.3rem;
+    transition: all 1s ease-in-out;
+    transform: translate(0px, 100px);
 }
 
 .btn3:hover {
-    background: rgba(33, 36, 179, 0);
-    border: #007ab3;
-    border-style: solid;
-    border-width: 0.3rem;
+    transition: all 1s ease-in-out;
+    transform: translate(0px, 100px);
 }
 
 .fadeUp {

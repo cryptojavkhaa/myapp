@@ -15,9 +15,6 @@ const ShowCase = (props) => {
               <h1 className={`${myRefIsVisible ? css.fadeUp : ""}`}>
                 {themeContext.t("ShowCaseText.h1")}
               </h1>
-              <p className={`${myRefIsVisible ? css.fadeUp : ""}`}>
-                {themeContext.t("ShowCaseText.p")}
-              </p>
               <div className={css.wrap1}>
                 <div className={`${myRefIsVisible ? css.fadeUp : ""}`}>
                   <a href="https://rentsoestate.mn/" className={css.btn1}>

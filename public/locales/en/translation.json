@@ -1,15 +1,16 @@
 {
     "CompanyName": {
-        "1": "Rents'O Estate",
-        "2": "Rents'O",
-        "3": "Estate"
+        "0": "NATIONAL REAL ESTATE",
+        "1": "RENTS'O ESTATE",
+        "2": "RENTS'O",
+        "3": "ESTATE"
     },
     "ShowCaseText": {
-        "h1": "Монголд үл хөдлөх хөрөнгийн цогц үйлчилгээг бид үзүүлнэ",
-        "p1": "Үндэсний үл хөдлөх хөрөнгө",
-        "p2": "Монгол ОЖҮ",
-        "p3": "Үндэсний үл хөдлөх хөрөнгийн хөгжлийн Нийгэмлэг",
-        "a": "Дэлгэрэнгүй"
+        "h1": "We provide comprehensive real estate services in Mongolia",
+        "p1": "National Real Estate",
+        "p2": "MongolOJU",
+        "p3": "National Real Estate Development Association",
+        "a": "Read more"
     },
     "MenuURL": {
         "1": "/",
@@ -21,37 +22,41 @@
         "7": "/sale",
         "8": "/management"
     },
-    "ShowCaseText": {
-        "h1": "There is no limit to our possibilities ",
-        "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit dfdas dfasddsfa fdsafdsfa fdasadfda dfdafds, dasdfdf. dfadsfs d fads",
-        "a": "Read More"
-    },
     "MenuShowCases": {
         "about": {
-            "h2": "Үл хөдлөх хөрөнгийн тухай ",
-            "p": "Бидний танд хамгийн тохиромжтой үнийг санал болгоно."
+            "h2": "About real estate",
+            "p": "We offer the best price "
         },
         "sell": {
-            "h2": "Хэрэв та худалдах бол ",
-            "p": "Та яг зөв газраа сонгосон байна."
+            "h2": "If you want to sell",
+            "p": "Real estate seller"
         },
         "buy": {
-            "h2": "Хэрэв худалдан авах бол ",
-            "p": "Зураг дээр дарж орно уу."
+            "h2": "If you want to buy",
+            "p": "Real estate buyer"
         },
         "sale": {
-            "h2": "Үл хөдлөх хөрөнгийн борлуулалт ",
-            "p": "Зураг дээр дарж орно уу."
+            "h2": "Real estate sales",
+            "p": "Read more"
         },
         "management": {
-            "h2": "Үл хөдлөх эзэмшлийн удирдлага ",
-            "p": "Зураг дээр дарж орно уу."
+            "h2": "Real estate ownership management ",
+            "p": "Read more"
         }
     },
     "Copyright": {
-        "p": "© 2022 Rents'O Estate LLC"
+        "p": "© 2022 Rents'O Estate LLC All right reserved."
     },
     "Address": {
-        "1": "Lorem ipsum dolor sit amet consectetur adipisicing elit dfdas dfasddsfa fdsafdsfa fdasadfda dfdafds, dasdfdf. dfadsfs d fads"
+        "1": "#4-3, Ikh Khulgun Center, Chin Van Chagdarjav's street-29, 1st khoroo, Sukhbaatar district",
+        "2": "Ulaanbaatar, Mongolia"
+    },
+    "Footer": {
+        "Menu2": {
+            "0": "National Real Estate Agent ",
+            "1": "Join National Real Estate",
+            "2": "if you choose National Real Estate ...",
+            "3": "Contact Us"
+        }
     }
 }
